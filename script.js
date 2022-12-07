@@ -88,7 +88,7 @@ function switchByWidth() {
 window.onload = switchByWidth;
 window.onresize = switchByWidth;
 
-// Toggle Button for projects
+/* // Toggle Button for projects
 const moreBtn = document.getElementById('moreBtn');
 const hiddenItems = document.querySelector('.hidden-items');
 const classes = hiddenItems.classList;
@@ -103,11 +103,11 @@ moreBtn.addEventListener('click', () => {
     moreBtn.textContent = 'Show More';
     hiddenItems.classList.add('show-more');
   }
-});
+}); */
 
 // jQuery
 $(document).ready(function () {
   $('.works-container').hide().fadeIn(5000);
 });
 
-console.log(window.innerWidth);
+// console.log(window.innerWidth);
