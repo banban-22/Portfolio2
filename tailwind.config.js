@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ['./*.html'],
+  content: ['./src/**/*.{html,js}'],
+  // content: ['./*.html'],
   theme: {
     colors: {
       offWhite: '#fefffe',
