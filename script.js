@@ -88,26 +88,7 @@ function switchByWidth() {
 window.onload = switchByWidth;
 window.onresize = switchByWidth;
 
-/* // Toggle Button for projects
-const moreBtn = document.getElementById('moreBtn');
-const hiddenItems = document.querySelector('.hidden-items');
-const classes = hiddenItems.classList;
-
-moreBtn.addEventListener('click', () => {
-  // moreBtn.innerText = hiddenItem ? 'Show Less' : 'Show More';
-  if (classes.contains('show-more')) {
-    moreBtn.textContent = 'Show Less';
-    hiddenItems.style.display = '';
-    hiddenItems.classList.remove('show-more');
-  } else {
-    moreBtn.textContent = 'Show More';
-    hiddenItems.classList.add('show-more');
-  }
-}); */
-
 // jQuery
 $(document).ready(function () {
   $('.works-container').hide().fadeIn(5000);
 });
-
-// console.log(window.innerWidth);
