@@ -174,11 +174,11 @@ a {
 
 .grid-container {
   display: grid;
-  gap: 50px;
-  width: 80%;
+  gap: 2rem;
+  width: 100%;
   margin: 50px auto;
   grid-template-columns: repeat(3, auto [col-start]);
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .grid-item {
@@ -186,7 +186,7 @@ a {
   height: 100%;
 }
 
-.grid-item a {
+.grid-item > a {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -196,4 +196,3 @@ a {
 .grid-item img {
   width: 100%;
 }
-
