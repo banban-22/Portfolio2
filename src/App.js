@@ -1,9 +1,18 @@
-function App() {
+import * as React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './Navbar';
+
+const App = () => {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Navbar />
+      {/* <Router>
+        <Routes>
+          <Route exact path="/" component={Navbar} />
+        </Routes>
+      </Router> */}
     </div>
   );
-}
+};
 
 export default App;

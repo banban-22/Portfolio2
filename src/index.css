@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  font-family: 'Khula', sans-serif;
+}
+
+.nav-right-cont {
+  padding: 10px;
+}
