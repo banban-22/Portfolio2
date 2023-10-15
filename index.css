@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav-right-cont {
+/* .nav-right-cont {
   padding: 10px;
-}
+} */
 
 .nav-link {
   color: #fefffe;
