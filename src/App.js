@@ -1,17 +1,24 @@
 import * as React from 'react';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar';
+import Intro from './Intro';
+import Main from './Main';
+import Skills from './Skills';
+import Works from './Works';
+import Articles from './Articles';
+import Footer from './Footer';
 
 const App = () => {
   return (
-    <div className="App">
+    <>
       <Navbar />
-      {/* <Router>
-        <Routes>
-          <Route exact path="/" component={Navbar} />
-        </Routes>
-      </Router> */}
-    </div>
+      <Intro />
+      <Main />
+      <Skills />
+      <Works />
+      <Articles />
+      <Footer />
+    </>
   );
 };
 

@@ -7,6 +7,7 @@ module.exports = {
       offWhite: '#fefffe',
       brownishGray: '#2a2b2d',
       littleGray: '#EBEBEB,',
+      darkBlack: '#303030',
     },
     screens: {
       sm: '480px',
