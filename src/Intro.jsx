@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 const Intro = () => {
   return (
     <div
-      className="flex flex-col text-center w-full bg-brownishGray text-offWhite mx-auto"
+      className="flex flex-col text-center w-full bg-brownishGray text-offWhite"
       id="aboutme"
     >
       <p className="text-7xl font-bol my-10">

@@ -53,13 +53,13 @@ const Navbar = () => {
 
   return (
     <nav className="bg-brownishGray lg:py-10 lg:px-10">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center">
+      <div className="max-w-full flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://ayakabando.netlify.app/" className="flex items-center">
           <img src={Logo} className="h-8 mr-3" alt="Logo" />
         </a>
         <button
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-offWhite rounded-lg md:hidden hover:bg-gray-100"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-offWhite rounded-lg lg:hidden hover:bg-gray-100"
           onClick={toggleMenu}
         >
           <RxHamburgerMenu />
@@ -67,15 +67,13 @@ const Navbar = () => {
         <div
           className={`${
             isToggleOpen ? 'block' : 'hidden'
-          } w-full md:block md:w-auto`}
-          id="navbar-default"
+          } w-full lg:block lg:w-auto`}
         >
-          {/* <div className="hidden w-full md:block md:w-auto" id="navbar-default"> */}
-          <ul className="flex flex-col p-4 md:p-0 mt-4 border rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+          <ul className="flex flex-col p-4 mt-4 border rounded-xl lg:p-0 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0">
             <li>
               <a
                 href="#aboutme"
-                className="block py-2 pl-3 pr-4 text-offWhite rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:bg-transparent md:text-[#BFF8E6] md:p-0"
+                className="block py-2 pl-3 pr-4 text-offWhite text-2xl rounded hover:bg-gray-100 lg:hover:bg-transparent lg:p-0 lg:text-base"
                 aria-current="page"
               >
                 About Me
@@ -84,7 +82,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#skills"
-                className="block py-2 pl-3 pr-4 text-offWhite rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#BFF8E6] md:p-0"
+                className="block py-2 pl-3 pr-4 text-offWhite text-2xl rounded hover:bg-gray-100 lg:hover:bg-transparent lg:p-0 lg:text-base"
               >
                 Skills
               </a>
@@ -92,7 +90,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#works"
-                className="block py-2 pl-3 pr-4 text-offWhite rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#BFF8E6] md:p-0"
+                className="block py-2 pl-3 pr-4 text-offWhite text-2xl rounded hover:bg-gray-100 lg:hover:bg-transparent lg:p-0 lg:text-base"
               >
                 Works
               </a>
@@ -100,7 +98,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#article"
-                className="block py-2 pl-3 pr-4 text-offWhite rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#BFF8E6] md:p-0"
+                className="block py-2 pl-3 pr-4 text-offWhite text-2xl rounded hover:bg-gray-100 lg:hover:bg-transparent lg:p-0 lg:text-base"
               >
                 Articles
               </a>
@@ -108,7 +106,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#contact"
-                className="block py-2 pl-3 pr-4 text-offWhite rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#BFF8E6] md:p-0"
+                className="block py-2 pl-3 pr-4 text-offWhite text-2xl rounded hover:bg-gray-100 lg:hover:bg-transparent lg:p-0 lg:text-base"
               >
                 Contact
               </a>
