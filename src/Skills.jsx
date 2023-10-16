@@ -84,7 +84,7 @@ const Skills = () => {
       } flex text-center justify-around align-center flex-col w-full my-0 mt-[8rem] pb-[7rem] bg-[#EBEBEB]`}
       id="skills"
     >
-      <p className="title">Skills and Tools I Use</p>
+      <p className="title">Skills and Tools</p>
       <div className="flex flex-row flex-wrap text-center justify-around content-center w-8/12 mx-auto mt-[5rem]">
         {skills.map((skill, index) => (
           <div className="flex flex-col items-center p-5" key={skill.name}>
