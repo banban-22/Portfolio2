@@ -78,9 +78,9 @@ const Works = () => {
       id="works"
     >
       <p className="title">My Works</p>
-      <div className="sm:flex sm:flex-col md:grid md:grid-cols-3 md:col-span-1 md:gap-3 w-100 mx-10 my-auto mt-[5rem] justify-between">
+      <div className="sm:flex sm:flex-col md:grid md:grid-cols-3 md:col-span-1 md:gap-3 w-100 mx-10 my-auto mt-8 md:mt-[5rem] justify-between">
         {works.map((work, index) => (
-          <div className="w-full h-full flex flex-col" key={index}>
+          <div className="w-full h-full flex flex-col pb-20" key={index}>
             <a href={work.link} target="_blank" rel="noopener noreferrer">
               <img
                 src={work.imageSrc}

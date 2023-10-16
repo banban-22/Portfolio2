@@ -81,11 +81,11 @@ const Skills = () => {
     <div
       className={`${
         fadeIn ? 'fadein scroll-in' : 'fadein'
-      } flex text-center justify-around align-center flex-col w-full my-0 mt-[8rem] pb-[7rem] bg-[#EBEBEB]`}
+      } flex text-center justify-around align-center flex-col w-full my-0 mt-20 md:mt-[8rem] pb-14 md:pb-[7rem] bg-[#EBEBEB]`}
       id="skills"
     >
       <p className="title">Skills and Tools</p>
-      <div className="flex flex-row flex-wrap text-center justify-around content-center w-8/12 mx-auto mt-[5rem]">
+      <div className="flex flex-row flex-wrap text-center justify-around content-center w-8/12 mx-auto mt-8 md:mt-[5rem]">
         {skills.map((skill, index) => (
           <div className="flex flex-col items-center p-5" key={skill.name}>
             <img
