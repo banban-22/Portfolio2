@@ -5,7 +5,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 const Footer = () => {
   return (
     <>
-      <div className="contact fadein pl-10 px-auto" id="contact">
+      <div className="contact pl-10 px-auto" id="contact">
         <p className="contact-title title text-center text-lg pt-28 text-darkBlack">
           Get in Touch!
         </p>
