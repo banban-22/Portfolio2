@@ -2,11 +2,11 @@ import React from 'react';
 
 const Main = () => {
   return (
-    <div className="flex flex-col justify-center mt-28 mb-30">
-      <h2 className="flex text-9xl font-bold uppercase justify-center content-center mx-auto">
+    <div className="flex flex-col text-center justify-center mt-28 mb-30">
+      <h2 className="flex text-7xl md:text-9xl font-bold uppercase justify-center content-center mx-auto">
         Ayaka Bando
       </h2>
-      <h3 className="flex job-title text-6xl mt-4 justify-center sm:w-8/12 lg:w-full mx-auto">
+      <h3 className="flex job-title text-5xl md:text-6xl mt-4 justify-center sm:w-8/12 lg:w-full mx-auto">
         Full-stack Web Developer
       </h3>
       <p className="text-lg mt-4 justify-center w-8/12 mx-auto">
