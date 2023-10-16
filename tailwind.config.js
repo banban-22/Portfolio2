@@ -1,15 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: [
-    './src/pages//*.{js,jsx,ts,tsx}", "./src/components//*.{js,jsx,ts,tsx}',
-  ],
-  // content: ['./*.html'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     colors: {
       offWhite: '#fefffe',
       brownishGray: '#2a2b2d',
       littleGray: '#EBEBEB,',
+      darkBlack: '#303030',
     },
     screens: {
       sm: '480px',

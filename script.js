@@ -1,22 +1,4 @@
-// Typing Effect
-const typing = document.getElementById('type');
 // const loader = document.getElementById('loader');
-const fadeIn = document.querySelectorAll('.fadein');
-
-const typewriter = new Typewriter(typing, {
-  loop: true,
-});
-
-typewriter
-  .typeString("Hello, I'm Ayaka")
-  .pauseFor(1000)
-  .deleteChars(5)
-  .typeString('Web Developer')
-  .pauseFor(1000)
-  .deleteChars(13)
-  .typeString('Sports Lover')
-  .pauseFor(1000)
-  .start();
 
 // Scroll Smoothly to a certain element
 const innerLinks = document.querySelectorAll('.nav-right .nav-right-cont a');
@@ -87,6 +69,8 @@ function switchByWidth() {
 
 window.onload = switchByWidth;
 window.onresize = switchByWidth;
+
+const fadeIn = document.querySelectorAll('.fadein');
 
 // jQuery
 $(document).ready(function () {
