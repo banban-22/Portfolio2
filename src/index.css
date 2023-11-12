@@ -33,6 +33,12 @@ html {
   transform: translate(0, 0);
 }
 
+.github:hover {
+  background: #303030;
+  color: #fff;
+  border: solid 2px #303030;
+}
+
 .sns {
   display: flex;
   flex-direction: row;

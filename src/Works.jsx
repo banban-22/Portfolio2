@@ -102,7 +102,7 @@ const Works = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub />
+              <FaGithub className="github" />
             </a>
           </div>
         ))}
