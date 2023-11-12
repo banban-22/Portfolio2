@@ -8,6 +8,7 @@ import NodeJS from './img/tools/nodejs-icon.png';
 import Ruby from './img/tools/ruby-icon.png';
 import Rails from './img/tools/rails-icon.png';
 import Typescript from './img/tools/Typescript-icon.png';
+import GraphQl from './img/tools/Graphql-icon.png';
 import Sass from './img/tools/Sass.png';
 import Bootstrap from './img/tools/Bootstrap-icon.png';
 import Bulma from './img/tools/Bulma-icon.png';
@@ -40,6 +41,11 @@ const Skills = () => {
       name: 'Typescript',
       icon: Typescript,
       alt: 'Typescript',
+    },
+    {
+      name: 'GrpahQL',
+      icon: GraphQl,
+      alt: 'GraphQL',
     },
     { name: 'Sass', icon: Sass, alt: 'Sass' },
     {
