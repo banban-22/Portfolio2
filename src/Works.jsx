@@ -25,11 +25,11 @@ const Works = () => {
       gitHubLink: 'https://github.com/banban-22/job_finder',
     },
     {
-      name: 'New Journey Countdown',
-      imageSrc: Countdown,
-      link: 'https://banban-22.github.io/newJourney-Countdown/',
-      stack: ['HTML', 'CSS3', 'JavaScript'],
-      gitHubLink: 'https://github.com/banban-22/newJourney-Countdown',
+      name: 'TaskHive',
+      imageSrc: Taskhive,
+      link: 'https://task-hive.vercel.app/',
+      stack: ['HTML', 'Tailwind', 'ReactJS'],
+      gitHubLink: 'https://github.com/banban-22/task_hive',
     },
     {
       name: 'Github User Dashboard',
@@ -38,12 +38,13 @@ const Works = () => {
       stack: ['HTML', 'CSS', 'ReactJS'],
       gitHubLink: 'https://github.com/banban-22/github-user-searcher',
     },
+
     {
-      name: 'Shopping List Creator',
-      imageSrc: Shopping,
-      link: 'https://shopping-list-organizer.netlify.app/',
-      stack: ['HTML', 'CSS', 'ReactJS'],
-      gitHubLink: 'https://github.com/banban-22/shopping-list',
+      name: 'New Journey Countdown',
+      imageSrc: Countdown,
+      link: 'https://banban-22.github.io/newJourney-Countdown/',
+      stack: ['HTML', 'CSS3', 'JavaScript'],
+      gitHubLink: 'https://github.com/banban-22/newJourney-Countdown',
     },
     {
       name: 'Movie Searcher',
