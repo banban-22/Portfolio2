@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SpendWise from './img/works/SpendWise.png';
 import Jobber from './img/works/Jobber.png';
+import Taskhive from './img/works/Taskhive.png';
 import Countdown from './img/works/New_Years_Countdown.png';
 import Github from './img/works/github-user-board.png';
 import Shopping from './img/works/shopping-list.png';
