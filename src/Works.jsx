@@ -7,6 +7,7 @@ import Github from './img/works/github-user-board.png';
 import Shopping from './img/works/shopping-list.png';
 import Movie from './img/works/movie-searcher.png';
 import Exchange from './img/works/Exchange_Rate_Calculator.png';
+import GraphQL from './img/works/GraphQL.png';
 import { FaGithub } from 'react-icons/fa';
 
 const Works = () => {
@@ -31,6 +32,13 @@ const Works = () => {
       link: 'https://task-hive.vercel.app/',
       stack: ['HTML', 'Tailwind', 'ReactJS'],
       gitHubLink: 'https://github.com/banban-22/task_hive',
+    },
+    {
+      name: 'GraphQL',
+      imageSrc: GraphQL,
+      link: 'https://projectql.netlify.app/',
+      stack: ['ReactJS', 'Tailwind', 'GraphQL'],
+      gitHubLink: 'https://github.com/banban-22/ProjectQL_new',
     },
     {
       name: 'Github User Dashboard',
