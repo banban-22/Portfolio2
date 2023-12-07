@@ -34,7 +34,7 @@ const Works = () => {
       gitHubLink: 'https://github.com/banban-22/task_hive',
     },
     {
-      name: 'GraphQL',
+      name: 'ProjectQL',
       imageSrc: GraphQL,
       link: 'https://projectql.netlify.app/',
       stack: ['ReactJS', 'Tailwind', 'GraphQL'],
